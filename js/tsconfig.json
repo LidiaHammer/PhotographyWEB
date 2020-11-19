@@ -1,0 +1,15 @@
+{
+   "compilerOptions": {
+       "target":"es6" ,
+       "lib": [
+           "es5","es6" ,"es2016","dom"
+       ]
+   },
+   "files": [
+       "header_footer.ts",
+       "awards.ts",
+       "landscape.ts",
+       "portrait.ts",
+       "workshops.ts"
+     ] 
+}

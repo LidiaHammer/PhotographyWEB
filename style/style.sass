@@ -1,0 +1,72 @@
+//Importing font settings
+@import "fonts"
+
+//Importing color settings
+@import 'colors'
+
+body
+    font-family: $text-font
+
+h1
+    font-family: $heading-font
+
+#logo
+    height: 1.8em
+
+header.masthead
+    padding-top: 6rem
+    padding-bottom: calc(10rem - 4.5rem)
+    height: 50vh
+    background: url("../img/terraces.jpg")
+    background-position: center
+    background-repeat: no-repeat
+    background-attachment: fixed //use scroll/fixed for non-parallax
+    background-size: cover
+
+#aboutMasthead
+    background: url("../img/landscape19.jpg")
+    height: 60vh
+    background-position: center
+    background-repeat: no-repeat
+    background-attachment: fixed //use scroll/fixed for non-parallax
+    background-size: cover
+    
+
+#johnJacobs
+    width: 100%
+    object-fit: cover
+
+#background_portrait
+    background: url("../img/portrait.jpg")
+
+#background_equipment
+    background: url("../img/equipment.jpg")
+
+#background_workshop
+    background: url("../img/workshop.jpg")
+
+#background_mountain
+    background: url("../img/mountain.jpg")
+
+#background_canyon
+    background: url("../img/canyon.jpg")    
+
+#background_portrait, #background_equipment, #background_workshop, #background_mountain, #background_canyon
+    height: 50vh
+    background-position: center
+    background-repeat: no-repeat
+    background-attachment: fixed
+    background-size: cover
+
+//Footer Styling
+footer
+    .footer-icon
+        color: $dark
+
+        &:hover
+            color: $danger
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 992px)
+    header.masthead, #background_portrait, #background_equipment, #background_workshop, #background_mountain, #background_canyon, #aboutMasthead
+        background-attachment: scroll

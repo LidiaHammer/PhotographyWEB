@@ -1,0 +1,31 @@
+File Names
+    html files are named the same as their ts/js files
+
+Tabulation
+    4 empty spaces (1 tab)
+
+Class Names
+    single word, capitalized, singular
+
+Variable Names
+    single word, lowercase, singular or plural (for arrays)
+
+Constant Names
+    not used
+
+Function Declaration
+    camel case
+
+directory structures
+    all .html files in main folder
+    style, img and js subfolders
+
+Text, Font, etc.
+    heading font: Oswald
+    text font: Lato
+    font-size: 1em for text
+
+Semantic Elements
+    every page has nav, footer
+    page content is in main
+    content is separated in sections or divs
